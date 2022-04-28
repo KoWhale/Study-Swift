@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>print("1. 할당 연산자, Assignment Operator")
+print("값을 초기화 시키거나 변경할 때 사용")
+print("할당연산자 기본 사용 법")
+let a = 10
+print("let a = 10")
+print("a : ", a)
+var b = 5
+print("var b = 5")
+print("b : ", b)
+b = a
+print("b = a")
+print("b : ", b, terminator: "\n\n")
+
+print("튜플을 이용해 여러 값 한 번에 할당")
+let (x,y) = (1,2)
+print("let (x,y) = (1,2)")
+print("x : ", x, ", y : ", y, terminator: "\n\n")
+
+print("2. 사칙 연산자, Arithmetic Operators")
+print("스위프트는 모든 숫자 형에서 사용 가능한 4가지 표준 사칙 연산자를 지원")
+print("1 + 2 :", 1 + 2)
+print("5 - 3 :", 5 - 3)
+print("2 * 3 :", 2 * 3)
+print("10.0 / 2.5 :", 10.0 / 2.5)
+print("스위프트는 사칙 연산의 값이 오버플로우 되는 것을 허용하지 않음")
+print("허용하고 싶으면 오버플로우 연산자를 이용할 것", terminator: "\n\n")
+
+print("3. 나머지 연산자, Remainder Operator")
+print("9 % 4 :", 9 % 4)
+print("-9 % 4 :", -9 % 4, terminator: "\n\n")
+
+print("4. 단항 음수 연산자, Unary Minus Operator")
+let three = 3
+print("let three = 3")
+print("-theree :", -three, terminator: "\n\n")
+
+print("5. 단항 양수 연산자, Unary Plus Operator")
+let minusSix = -6
+print("let minusSix = -6")
+print("+minusSix :", +minusSix, terminator: "\n\n")
+
+print("6. 합성 할당 연산자, Compound Assignment Operators")
+print("합성 할당 연산자를 값을 반환하지 않음")
+print("즉, let b = a+=2 같은 문법은 사용할 수 없음")
+var c = 1
+print("var c = 1")
+c += 2
+print("c += 2")
+print("c :", c, terminator: "\n\n")
+
+print("7. 비교 연산자, Comparison Operators")
+print("스위프트는 객체 비교를 위해 식별 연산자 ===과 !==를 제공")
+print("1 == 1 \t:", 1 == 1)
+print("2 != 1 \t:", 2 != 1)
+print("2 &gt; 1  \t:", 2 &gt; 1)
+print("1 &lt; 2  \t:", 1 &lt; 2)
+print("1 &gt;= 1 \t:", 1 &gt;= 1)
+print("2 &lt;= 1 \t:", 2 &lt;= 1)
+print("같은 타입의 값을 갖는 두 개의 튜플도 비교할 수 있음")
+print("앞에서 판단이 되면 비교는 종료됨")
+print("(1, \"zebra\") &lt; (2, \"apple\")\t: true",terminator: "\n\n")
+
+print("8. 삼항 조건 연산자, Ternary Conditional Operator")
+print("조건문 ? 참 : 거짓")
+print("위와 같은 구조를 가짐")
+print()
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1758}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
